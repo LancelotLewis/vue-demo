@@ -17,7 +17,7 @@ export const MENUS = [
     tags: ['检查', '修改', '统计'],
     filter: 'clean',
     iconfont: 'cleangoo',
-    types: ['cleangoo', 'excel'],
+    // types: ['cleangoo', 'excel'],
   },
   {
     name: 'Crawler',
@@ -29,7 +29,7 @@ export const MENUS = [
     tags: ['爬虫'],
     filter: 'crawler',
     iconfont: 'crawler',
-    types: ['crawler'],
+    // types: ['crawler'],
   },
   {
     name: 'Multi Goo',
@@ -43,7 +43,7 @@ export const MENUS = [
         lang: 'product24',
         role: 'side',
         filter: 'multi',
-        types: ['excel'],
+        types: ['excel', 'number'],
         // iconfont: 'quick_analysis',
       },
       {
@@ -55,7 +55,7 @@ export const MENUS = [
         tags: ['比较', '关系', '模式'],
         filter: 'multi',
         iconfont: 'multigoo_parallel',
-        types: ['excel'],
+        types: ['excel', 'number'],
       },
       {
         name: 'Scatter Plot',
@@ -65,7 +65,7 @@ export const MENUS = [
         gif: '/static/new/dagoo/gif/multi_scatter.gif',
         tags: ['模式', '关系', '多元数据'],
         filter: 'multi',
-        types: ['excel'],
+        types: ['excel', 'number'],
         // iconfont: 'multigoo_cluster_scatter',
       },
       {
@@ -77,7 +77,7 @@ export const MENUS = [
         tags: ['相关系数', '关系', '属性'],
         filter: 'multi',
         iconfont: 'multigoo_attribute_analysis',
-        types: ['excel'],
+        types: ['excel', 'number'],
       },
       {
         name: 'Hierarchical Clustering',
@@ -88,7 +88,7 @@ export const MENUS = [
         tags: ['层次结构', '关系', '聚类'],
         filter: 'multi',
         iconfont: 'multigoo_hierarchy',
-        types: ['excel'],
+        types: ['excel', 'number'],
       },
       {
         name: 'Embedding',
@@ -98,7 +98,7 @@ export const MENUS = [
         gif: '/static/new/dagoo/gif/multi_embedding.gif',
         tags: ['降维', '比较', '关系'],
         filter: 'multi',
-        types: ['excel'],
+        types: ['excel', 'number'],
       },
       {
         name: 'Radviz',
@@ -108,7 +108,7 @@ export const MENUS = [
         gif: '/static/new/dagoo/gif/multi_radviz.gif',
         tags: ['关系', '多元数据', '标准化'],
         filter: 'multi',
-        types: ['excel'],
+        types: ['excel', 'number'],
       },
       {
         name: 'Pareto Optimization',
@@ -118,7 +118,7 @@ export const MENUS = [
         gif: '/static/new/dagoo/gif/multi_pareto.gif',
         tags: ['关系', '多元数据', '标准化'],
         filter: 'multi',
-        types: ['excel'],
+        types: ['excel', 'number'],
       },
     ],
   },
@@ -267,7 +267,7 @@ export const MENUS = [
         gif: '/static/new/dagoo/gif/text_ocr.gif',
         tags: ['图片', '文本', '语音'],
         filter: 'text',
-        types: ['text'],
+        types: ['img'],
       },
       {
         name: 'Acrostic poem',
@@ -295,7 +295,7 @@ export const MENUS = [
         gif: '/static/new/dagoo/gif/geogoo/effect_scatter.gif',
         tags: ['分布', '位置', '模式'],
         filter: 'geo',
-        types: ['excel'],
+        types: ['excel', 'col1+1'],
       },
       {
         name: 'Choropleth Map',
@@ -305,7 +305,7 @@ export const MENUS = [
         gif: '/static/new/dagoo/gif/geogoo/choropleth_map.gif',
         tags: ['比较', '位置', '模式'],
         filter: 'geo',
-        types: ['excel'],
+        types: ['excel', 'col1+1'],
       },
       {
         name: 'Geo Data Stream',
@@ -315,7 +315,7 @@ export const MENUS = [
         gif: '/static/new/dagoo/gif/geogoo/flowmap.gif',
         tags: ['分布', '关系', '流向'],
         filter: 'geo',
-        types: ['excel'],
+        types: ['excel', 'col2+1'],
       },
       {
         name: '城市地图',
@@ -325,7 +325,7 @@ export const MENUS = [
         gif: '/static/new/dagoo/gif/geogoo/city_map.gif',
         tags: ['对比', '模式', '区域'],
         filter: 'geo',
-        types: ['excel'],
+        types: ['excel', 'col1+1'],
       },
       {
         name: '世界地图',
@@ -335,7 +335,7 @@ export const MENUS = [
         gif: '/static/new/dagoo/gif/geogoo/worldmap.gif',
         tags: ['对比', '模式', '区域'],
         filter: 'geo',
-        types: ['excel'],
+        types: ['excel', 'col2+1'],
       },
       {
         name: 'Mapbox-GL',
@@ -355,7 +355,7 @@ export const MENUS = [
         gif: '/static/new/dagoo/gif/geogoo/3Dmap.gif',
         tags: ['对比', '模式', '区域'],
         filter: 'geo',
-        types: ['excel'],
+        types: ['excel', 'col2+1'],
       },
     ],
   },
@@ -375,7 +375,7 @@ export const MENUS = [
         tags: ['层次', '参考', '关系'],
         filter: 'graph',
         iconfont: 'graphgoo_tree',
-        types: ['excel'],
+        types: ['excel', 'binaryNumber'],
       },
       {
         name: 'Radial Tree Layout',
@@ -387,7 +387,7 @@ export const MENUS = [
         tags: ['层次', '参考', '关系'],
         filter: 'graph',
         iconfont: 'graphgoo_radial',
-        types: ['excel'],
+        types: ['excel', 'binaryNumber'],
       },
       {
         name: 'Treemap Layout',
@@ -399,7 +399,7 @@ export const MENUS = [
         tags: ['层次', '参考', '关系'],
         filter: 'graph',
         iconfont: 'graphgoo_treemap',
-        types: ['excel'],
+        types: ['excel', 'binaryNumber'],
       },
       {
         name: 'Pack Layout',
@@ -411,7 +411,7 @@ export const MENUS = [
         tags: ['层次', '比例', '关系'],
         filter: 'graph',
         iconfont: 'graphgoo_pack',
-        types: ['excel'],
+        types: ['excel', 'binaryNumber'],
       },
       {
         name: 'Hierarchical Layout',
@@ -423,7 +423,7 @@ export const MENUS = [
         tags: ['层次结构', '关系', '聚类'],
         filter: 'graph',
         iconfont: 'graphgoo_hierarchical',
-        types: ['excel'],
+        types: ['excel', 'binaryNumber'],
       },
       {
         name: 'Grid Layout',
@@ -435,7 +435,7 @@ export const MENUS = [
         tags: ['关系', '网格', '展示'],
         filter: 'graph',
         iconfont: 'graphgoo_grid',
-        types: ['excel'],
+        types: ['excel', 'binaryNumber'],
       },
       {
         name: 'Circular Layout',
@@ -447,7 +447,7 @@ export const MENUS = [
         tags: ['连接', '节点', '关系'],
         filter: 'graph',
         iconfont: 'graphgoo_circular',
-        types: ['excel'],
+        types: ['excel', 'binaryNumber'],
       },
       {
         name: 'Chord Layout',
@@ -459,7 +459,7 @@ export const MENUS = [
         tags: ['连接', '节点', '关系'],
         filter: 'graph',
         iconfont: 'graphgoo_chord',
-        types: ['excel'],
+        types: ['excel', 'binaryNumber'],
       },
       {
         name: 'Matrix Layout',
@@ -471,7 +471,7 @@ export const MENUS = [
         tags: ['路径', '距离', '最优'],
         filter: 'graph',
         iconfont: 'graphgoo_matrix',
-        types: ['excel'],
+        types: ['excel', 'col2+1'],
       },
       {
         name: '最小生成树',
@@ -483,7 +483,7 @@ export const MENUS = [
         tags: ['路径', '生成树', '最优'],
         filter: 'graph',
         iconfont: 'graphgoo_spanning_tree',
-        types: ['excel'],
+        types: ['excel', 'size_3'],
       },
       {
         name: '搜索算法',
@@ -495,7 +495,7 @@ export const MENUS = [
         tags: ['路径', '搜索', '最优'],
         filter: 'graph',
         iconfont: 'graphgoo_search_algorithm',
-        types: ['excel'],
+        types: ['excel', 'size_2'],
       },
       {
         name: '最大流问题',
@@ -505,7 +505,7 @@ export const MENUS = [
         gif: '',
         tags: ['最优', '流量', '成本'],
         filter: 'graph',
-        types: ['excel'],
+        types: ['excel', 'col2+1'],
         // iconfont: 'graphgoo_maximum_flow',
       },
     ],
@@ -522,7 +522,7 @@ export const MENUS = [
         lang: 'product24',
         role: 'side',
         filter: 'streaming',
-        types: ['excel'],
+        types: ['excel', 'number'],
       },
       {
         name: 'Bar Layout',
@@ -533,7 +533,7 @@ export const MENUS = [
         tags: ['比较', '比例', '模式'],
         filter: 'streaming',
         iconfont: 'streaminggoo_bar',
-        types: ['excel'],
+        types: ['excel', 'sortNumber'],
       },
       {
         name: 'Pie Diagram',
@@ -544,7 +544,7 @@ export const MENUS = [
         tags: ['比较', '比例', '关系'],
         filter: 'streaming',
         iconfont: 'streaminggoo_pie',
-        types: ['excel'],
+        types: ['excel', 'sortNumber'],
       },
       {
         name: 'Linear Regression',
@@ -555,7 +555,7 @@ export const MENUS = [
         tags: ['回归', '预测', '比较'],
         filter: 'streaming',
         iconfont: 'streaminggoo_lr',
-        types: ['excel'],
+        types: ['excel', 'sortNumber'],
       },
       {
         name: 'Time Series Analysis',
@@ -566,7 +566,7 @@ export const MENUS = [
         tags: ['预测', '趋势', '模式'],
         filter: 'streaming',
         iconfont: 'streaminggoo_timeseries',
-        types: ['excel'],
+        types: ['excel', 'sortNumber'],
       },
       {
         name: 'Period Detection',
@@ -577,7 +577,7 @@ export const MENUS = [
         tags: ['周期', '规律', '比较'],
         filter: 'streaming',
         // iconfont: 'streaminggoo_period',
-        types: ['excel'],
+        types: ['excel', 'sortNumber'],
       },
       {
         name: 'Sampling',
@@ -588,7 +588,7 @@ export const MENUS = [
         tags: ['采样', '统计', '分析'],
         filter: 'streaming',
         iconfont: 'streaminggoo_sampling',
-        types: ['excel'],
+        types: ['excel', 'sortNumber'],
       },
     ],
   },

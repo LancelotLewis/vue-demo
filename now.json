@@ -1,0 +1,5 @@
+{
+  "routes": [
+    { "src": "/static/(.*)", "dest": "http://dagoo.work/static/$1" }
+  ]
+}
